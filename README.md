@@ -49,13 +49,23 @@ I used the following columns as features for the model: APPLICATION_TYPE, AFFILI
 ![image](https://user-images.githubusercontent.com/88467263/148705251-d0cfc03d-9502-4b2b-8044-90e1a4eb6323.png)
 
 
-* What variable(s) are neither targets nor features, and should be removed from the input data?
-o Compiling, Training, and Evaluating the Model
+
+#  Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 * Were you able to achieve the target model performance?
 * What steps did you take to try and increase model performance?
 
 ![image](https://user-images.githubusercontent.com/88467263/148705444-e0863081-8f02-4dfb-8fca-8180f0e5f388.png)
+
+* In the image above in my neural network model there are two hidden layers with 8 neurons in the first layer and 5 in the second.
+* In this model I used the ReLU activation function for the hidden layers, and Sigmoid for the output layer.
+* The models output has an accuracy of about 73% which is not optimal for Beks foundation to guide them in where to make investments.
+
+## I attempted to improve the performance of the model by using the following steps:
+
+I changed the range of binning from 1000 to 4000 to consolidate the 
+Added more hidden layers to the model
+I also used a different activation function in the hidden layers (tanh), which gave us the highest accuracy score out of all other attempts, but still under 75%
 
 3. Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
 
