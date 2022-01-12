@@ -61,11 +61,11 @@ I used the following columns as features for the model: APPLICATION_TYPE, AFFILI
 * In this model I used the ReLU activation function for the hidden layers, and Sigmoid for the output layer.
 * The models output has an accuracy of about 73% which is not optimal for Beks foundation to guide them in where to make investments.
 
-## I attempted to improve the performance of the model by using the following steps:
+## What steps did you take to try and increase model performance?
 
-I changed the range of binning from 1000 to 4000 to consolidate the 
-Added more hidden layers to the model
-I also used a different activation function in the hidden layers (tanh), which gave us the highest accuracy score out of all other attempts, but still under 75%
+I changed the range of binning for Classification from 1000 to 4000 to consolidate the data but this did not improve the results.
+I Added more hidden layers to the model but this did not imporve the results, but still under 75%
 
-3. Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+
+3. Summary:  I would recommend we use a different different Model that may outperform our current Neueral Network. Even with the attempts to optimize the model I was unable to significantly improve our results. A different model could solve this classification problem, and explain your recommendation.
 
