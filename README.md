@@ -69,3 +69,12 @@ I Added more hidden layers to the model but this did not imporve the results, bu
 
 3. Summary:  I would recommend we use a different different Model that may outperform our current Neueral Network. Even with the attempts to optimize the model I was unable to significantly improve our results. A different model could solve this classification problem, and explain your recommendation.
 
+## Initial Results
+_________________________________
+
+![image](https://user-images.githubusercontent.com/88467263/149229631-a8b4d9a5-1dd6-482a-beed-21bb4decb971.png)
+
+## Optimized Results
+____________________________
+![image](https://user-images.githubusercontent.com/88467263/149229758-fee72642-013d-4b89-bf34-62dd065ba2d5.png)
+
